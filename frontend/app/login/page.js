@@ -37,7 +37,7 @@ export default function LoginPage() {
       <div className="bg-white rounded-3xl shadow-2xl p-12 w-full max-w-lg flex flex-col items-center">
         <h2 className="text-4xl font-extrabold text-center text-gray-900 mb-4">Sign in to your account</h2>
         <p className="text-center text-gray-500 mb-10 text-lg">
-          Don't have an account?{' '}
+        Don&apos;t have an account?{' '}
           <a href="/register" className="text-blue-600 hover:underline font-medium">Register</a>
         </p>
         {error && (
